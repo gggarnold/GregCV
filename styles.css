@@ -1,0 +1,176 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* CSS for the header image */
+header {
+    background-image: url('Website-Frontpage-Header-02.jpg'); /* Replace with your image path */
+    background-size: cover; /* Adjust sizing as needed */
+    background-position: center; /* Center-align the image */
+    height: 400px; /* Set a fixed height for your header */
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #f7f7f7;
+}
+
+body {
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+.hero {
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section h2 {
+    font-size: 2rem;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #333;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #0077B5; /* LinkedIn blue */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.contact-button:hover {
+    background-color: #ff6600; /* Slightly darker shade on hover */
+}
+
+.contact-button-container {
+    text-align: center; /* Center-align the button container */
+    margin-top: 20px;
+}
+
+
+.linkedin-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #0077B5; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.linkedin-button:hover {
+    background-color: #ff6600; 
+}
+
+
+footer {
+    background-color: lightgray;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background-image: url('Website-Frontpage-Header-02.jpg'); /* Replace with your image path */
+    background-size: cover; /* Adjust sizing as needed */
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+}
